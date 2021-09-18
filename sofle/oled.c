@@ -15,6 +15,7 @@
  */
 
 #ifdef OLED_ENABLE
+#    include QMK_KEYBOARD_H
 
 static void render_logo(void) {
     static const char PROGMEM qmk_logo[] = {
@@ -25,7 +26,6 @@ static void render_logo(void) {
 
     oled_write_P(qmk_logo, false);
 }
-
 
 static void print_status_narrow(void) {
     oled_write_P(PSTR("Sofle"), false);
