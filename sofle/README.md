@@ -19,4 +19,15 @@ View in [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/a
 - Vim-style navigation (`h` `j` `k` `l` as arrow keys)
 - Mode for standard navigation cluster
 - Toggling between layers when encoders are pressed
-- Left encoder controls `VOLUP`/`VOLDOWN`. Right encoder `PGUP`/`PGDN`.
+- Encoder controls (additional layer/s when `Ctrl` or `Shift` is held)
+
+### Encoder controls
+
+| modifier | encoder | action             |
+| -------- | ------- | ------------------ |
+| N/A      | Left    | Mouse wheel L/R    |
+| N/A      | Right   | PgUp/PgDn          |
+| Ctrl     | Left    | VolUp/VolUp        |
+| Ctrl     | Right   | Brightness Up/Dn   |
+| Shift    | Left    | Mouse cursor L/R   |
+| Shift    | Right   | Mouse cursor Up/Dn |
