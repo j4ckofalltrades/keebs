@@ -1,6 +1,6 @@
 # Via-compatible custom keymap for Sofle
 
-![SofleKeyboard](https://res.cloudinary.com/j4ckofalltrades/image/upload/c_limit,w_830/v1631712479/keebs/sofle_t9qeaa.jpg)
+![](https://res.cloudinary.com/j4ckofalltrades/image/upload/c_limit,w_830/v1631712479/keebs/sofle/sofle_t9qeaa.jpg)
 
 Modified version of default Via-compatible keymap with focus on adding a standard navigation cluster layer
 
