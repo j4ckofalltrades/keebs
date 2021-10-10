@@ -18,5 +18,5 @@ View in [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/a
 ## Features
 
 - Mode for soft escape (`Esc` when tapped, `Ctrl` when held) 
-- Toggling `Ctrl` and `Cmd` modifiers Linux or Win vs Mac
+- Toggling `Ctrl` and `Cmd` modifiers (Linux or Win vs Mac)
 - Media player controls
