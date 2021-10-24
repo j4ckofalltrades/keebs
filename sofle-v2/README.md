@@ -1,4 +1,4 @@
-# Via-compatible custom keymap for Sofle
+# Firmware
 
 ![](https://res.cloudinary.com/j4ckofalltrades/image/upload/c_limit,w_830/v1631712479/keebs/sofle/sofle_t9qeaa.jpg)
 
@@ -10,7 +10,7 @@ plus some Vim-inspired features e.g. soft escape (Esc when held, Ctrl when tappe
 
 View in [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/a1f6519e723ad81ca151741b53a28b80)
 
-![SofleKeyboard custom keymap](https://raw.githubusercontent.com/j4ckofalltrades/keebs/master/sofle/assets/soflekeyboard.png)
+![SofleKeyboard custom keymap](https://raw.githubusercontent.com/j4ckofalltrades/keebs/master/sofle-v2/assets/soflekeyboard.png)
 
 ## Features
 
