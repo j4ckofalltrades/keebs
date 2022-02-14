@@ -9,7 +9,7 @@ and media controls.
 
 ## Layout
 
-Standard 75% layout with the exception of remapping `Caps Lock` as soft escape (Esc when held, Ctrl when tapped), and the addition
+Standard 75% layout except `Caps Lock` is remapped as "soft escape" (Esc when held, Ctrl when tapped), and the addition
 
 of media controls in Layer 1. 
 
@@ -17,5 +17,4 @@ of media controls in Layer 1.
 ## Features
 
 - Mode for soft escape (`Esc` when tapped, `Ctrl` when held) 
-- Toggling `Ctrl` and `Cmd` modifiers (Linux or Win vs Mac)
 - Media player controls
