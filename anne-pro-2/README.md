@@ -9,11 +9,12 @@ and media controls.
 
 Refer to [Open Anne Pro](https://openannepro.github.io/install/)
 for installation / flashing instructions.
+
 ## Layout
 
-View in [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/a1f6519e723ad81ca151741b53a28b80)
+View in [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/f1c23fc1769c9bb0b1872d2272a1f268)
 
-![SofleKeyboard custom keymap](https://raw.githubusercontent.com/j4ckofalltrades/keebs/master/anne-pro-2/assets/annepro2.png)
+![AnnePro 2 custom keymap](https://raw.githubusercontent.com/j4ckofalltrades/keebs/master/anne-pro-2/assets/annepro2.png)
 
 ## Features
 
