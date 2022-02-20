@@ -13,6 +13,6 @@ View in [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/d
 
 ## Features
 
-- `Caps Lock` remapped as "soft escape' (Esc when held, Ctrl when tapped)
+- `Caps Lock` remapped as soft escape (Esc when held, Ctrl when tapped)
 - Vim-style arrow keys
 - Media player controls
