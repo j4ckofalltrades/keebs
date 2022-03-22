@@ -1,6 +1,6 @@
 # keebs :keyboard: 
 
-Collection of custom keymaps for [QMK](https://github.com/qmk) and [Via](https://github.com/the-via).
+Collection of custom mechanical keybooard firmware.
 
 - [AnnePro 2](anne-pro-2)
 - [ID80](id80)
