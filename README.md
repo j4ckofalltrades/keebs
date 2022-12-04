@@ -1,6 +1,6 @@
 # keebs :keyboard: 
 
-Collection of custom mechanical keybooard firmware.
+Collection of custom mechanical keyboard firmware.
 
 - [AnnePro 2](anne-pro-2)
 - [ID80](id80)

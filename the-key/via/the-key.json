@@ -3,7 +3,10 @@
   "vendorId": "0x04d8",
   "productId": "0xeed4",
   "lighting": "none",
-  "matrix": { "rows": 1, "cols": 3 },
+  "matrix": {
+    "rows": 1,
+    "cols": 3
+  },
   "layouts": {
     "keymap": [
       [
@@ -16,7 +19,7 @@
         },
         "0,1",
         "0,2"
-  	  ]    
+      ]
     ]
   }
 }
