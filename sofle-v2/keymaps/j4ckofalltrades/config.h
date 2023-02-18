@@ -1,4 +1,4 @@
- /* Copyright 2022 Jordan Duabe <me@jduabe.dev>
+ /* Copyright 2022 Jordan Duabe @j4ckofalltrades <me@jduabe.dev>
   *
   * This program is free software: you can redistribute it and/or modify
   * it under the terms of the GNU General Public License as published by
