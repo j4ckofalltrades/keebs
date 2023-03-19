@@ -16,6 +16,8 @@
 
 #pragma once
 
+#define IGNORE_MOD_TAP_INTERRUPT
+
 #define DYNAMIC_KEYMAP_LAYER_COUNT 4
 
 #ifdef AUDIO_ENABLE

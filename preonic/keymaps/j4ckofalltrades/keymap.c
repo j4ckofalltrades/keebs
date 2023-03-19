@@ -44,7 +44,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_TAB,               KC_Q,    KC_W,               KC_E,               KC_R,               KC_T,    KC_Y,   KC_U,    KC_I,      KC_O,               KC_P,               KC_BSLS,
       MT(MOD_LCTL, KC_ESC), KC_A,    MT(MOD_LCTL, KC_S), MT(MOD_LGUI, KC_D), MT(MOD_LALT, KC_F), KC_G,    KC_H,   MT(MOD_RALT, KC_J), MT(MOD_RGUI, KC_K), MT(MOD_RCTL, KC_L), KC_SCLN, KC_ENT,
       KC_LSFT,              KC_Z,    KC_X,               KC_C,               KC_V,               KC_B,    KC_N,   KC_M,               KC_COMM,            KC_DOT,             KC_SLSH, KC_RSFT,
-      MT(MOD_LCTL, KC_ESC), KC_LALT, KC_LGUI,            KC_LGUI,            FN_MO13,            KC_SPC,  KC_SPC, FN_MO23,            KC_RGUI,            KC_RGUI,            KC_RALT, KC_RCTRL
+      MT(MOD_LCTL, KC_ESC), KC_LALT, KC_LGUI,            KC_LGUI,            TL_LOWR,            KC_SPC,  KC_SPC, TL_UPPR,            KC_RGUI,            KC_RGUI,            KC_RALT, KC_RCTL
     ),
 
     /* Lower
@@ -103,7 +103,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     * `-----------------------------------------------------------------------------------'
     */
     [_ADJUST] = LAYOUT_preonic_grid(
-      RESET,   KC_MPRV, KC_MNXT, KC_MPLY, KC_MSTP, _______, _______, _______, KC_INS,  KC_HOME,  KC_PGUP, _______,
+      QK_BOOT, KC_MPRV, KC_MNXT, KC_MPLY, KC_MSTP, _______, _______, _______, KC_INS,  KC_HOME,  KC_PGUP, _______,
       CG_TOGG, KC_VOLU, KC_VOLD, KC_MUTE, _______, _______, _______, _______, KC_DEL,  KC_END,   KC_PGDN, _______,
       _______, _______, _______, _______, _______, _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RIGHT, _______, _______,
       _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,  _______, _______,
@@ -187,8 +187,8 @@ void matrix_scan_user(void) {
 
 bool music_mask_user(uint16_t keycode) {
   switch (keycode) {
-    case FN_MO13:
-    case FN_MO23:
+    case TL_LOWR:
+    case TL_UPPR:
       return false;
     default:
       return true;

@@ -1,4 +1,4 @@
-# keebs :keyboard: 
+# keebs :keyboard:
 
 Collection of QMK and VIA compatible custom mechanical keyboard firmware.
 

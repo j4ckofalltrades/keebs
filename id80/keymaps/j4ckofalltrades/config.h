@@ -1,4 +1,4 @@
-/* Copyright 2021 Jordan Duabe @j4ckofalltrades <me@jduabe.dev>
+/* Copyright 2022 Jordan Duabe @j4ckofalltrades <me@jduabe.dev>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -14,7 +14,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-// Obins stock firmware has something similar to this already enabled, but disabled by default in QMK
-#define PERMISSIVE_HOLD
+#pragma once
 
 #define IGNORE_MOD_TAP_INTERRUPT
