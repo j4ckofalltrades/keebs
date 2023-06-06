@@ -1,4 +1,4 @@
-/* Copyright 2022 Jordan Duabe @jackofalltrades <me@jduabe.dev>
+/* Copyright 2022 Jordan Duabe @j4ckofalltrades <me@jduabe.dev>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -47,15 +47,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       MT(MOD_LCTL, KC_ESC), KC_LALT, KC_LGUI,            KC_LGUI,            TL_LOWR,            KC_SPC,  KC_SPC, TL_UPPR,            KC_RGUI,            KC_RGUI,            KC_RALT, KC_RCTL
     ),
 
-    /* Lower
+      /* Lower
     * ,-----------------------------------------------------------------------------------.
     * |   `  |   1  |   2  |   3  |   4  |   5  |   6  |   7  |   8  |   9  |   0  |      |
     * |------+------+------+------+------+-------------+------+------+------+------+------|
     * |   ~  |   !  |   @  |   #  |   $  |   %  |   ^  |   &  |   *  |   (  |   )  |      |
     * |------+------+------+------+------+-------------+------+------+------+------+------|
-    * |  F1  |  F2  |  F3  |  F4  |  F5  |  F6  |   -  |   =  |   {  |   }  |  '   |      |
+    * |      |  F1  |  F2  |  F3  |  F4  |  F5  |  F6  |      |   [  |   ]  |   '  |      |
     * |------+------+------+------+------+------|------+------+------+------+------+------|
-    * |  F7  |  F8  |  F9  |  F10 |  F11 |  F12 |   _  |   +  |   [  |   ]  |  "   |      |
+    * |      |  F7  |  F8  |  F9  |  F10 |  F11 |  F12 |   -  |   =  |   _  |   +  |      |
     * |------+------+------+------+------+------+------+------+------+------+------+------|
     * |      |      |      |      |      |             |      | Left | Down |  Up  |Right |
     * `-----------------------------------------------------------------------------------'
@@ -63,8 +63,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_LOWER] = LAYOUT_preonic_grid(
       KC_GRV,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    _______,
       KC_TILD, KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, _______,
-      KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_MINS, KC_EQL,  KC_LCBR, KC_RCBR, KC_QUOT, _______,
-      KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_UNDS, KC_PLUS, KC_LBRC, KC_RBRC, KC_DQUO, _______,
+      _______, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   _______, KC_LBRC, KC_RBRC, KC_QUOT, _______,
+      _______, KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_MINS, KC_EQL,  KC_UNDS, KC_PLUS, _______,
       _______, _______, _______, _______, _______, _______, _______, _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RIGHT
     ),
 
@@ -74,9 +74,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     * |------+------+------+------+------+------+------+------+------+------+------+------|
     * |   ~  |   !  |   @  |   #  |   $  |   %  |   ^  |   &  |   *  |   (  |   )  |      |
     * |------+------+------+------+------+-------------+------+------+------+------+------|
-    * |  F1  |  F2  |  F3  |  F4  |  F5  |  F6  |      |      |      |      |      |      |
-    * +------+------+------+------+------|------+------+------+------+------+------+------+
-    * |  F7  |  F8  |  F9  |  F10 |  F11 |  F12 |      |      |      |      |      |      |
+    * |      |  F1  |  F2  |  F3  |  F4  |  F5  |  F6  |      |   {  |   }  |   "  |      |
+    * |------+------+------+------+------+------|------+------+------+------+------+------|
+    * |      |  F7  |  F8  |  F9  |  F10 |  F11 |  F12 |   -  |   =  |   _  |   +  |      |
     * +------+------+------+------+------+------+------+------+------+------+------+------+
     * |      |      |      |      |             |      |      |      |      |      |      |
     * `-----------------------------------------------------------------------------------'
@@ -84,8 +84,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_RAISE] = LAYOUT_preonic_grid(
       KC_GRV,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,     KC_0,    KC_BSPC,
       KC_TILD, KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN,  KC_RPRN, _______,
-      KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   _______, _______, _______, _______,  _______, _______,
-      KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  _______, _______, _______, _______,  _______, _______,
+      _______, _______, _______, _______, _______, _______, _______, _______, KC_LCBR, KC_RCBR,  KC_DQUO, _______,
+      _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,  _______, _______,
       _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,  _______, _______
     ),
 

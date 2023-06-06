@@ -1,6 +1,6 @@
 # Custom keymap for AnnePro 2
 
-![](https://res.cloudinary.com/j4ckofalltrades/image/upload/c_limit,w_830/v1633803184/keebs/annepro2/annepro2_xqpg09.jpg)
+![AnnePro 2 keyboard](https://res.cloudinary.com/j4ckofalltrades/image/upload/c_limit,w_830/v1633803184/keebs/annepro2/annepro2_xqpg09.jpg)
 
 Modified version of default keymap plus some Vim-inspired features
 e.g. soft escape (Esc when held, Ctrl when tapped),
@@ -18,6 +18,6 @@ View in [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/f
 
 ## Features
 
-- Mode for soft escape (`Esc` when tapped, `Ctrl` when held) 
+- Mode for soft escape (`Esc` when tapped, `Ctrl` when held)
 - Toggling `Ctrl` and `Cmd` modifiers (Linux or Win vs Mac)
 - Media player controls

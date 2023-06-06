@@ -1,6 +1,6 @@
 # Custom keymap for Ikki68 Aurora
 
-![](https://res.cloudinary.com/j4ckofalltrades/image/upload/v1676740613/keebs/ikki68_aurora_xa8pcq.jpg)
+![Ikki68 Aurora keyboard](https://res.cloudinary.com/j4ckofalltrades/image/upload/v1676740613/keebs/ikki68_aurora_xa8pcq.jpg)
 
 Modified version of default Via-compatible keymap plus some Vim-inspired features
 e.g. soft escape (Esc when held, Ctrl when tapped), and home row modifiers

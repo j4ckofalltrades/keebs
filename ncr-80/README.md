@@ -1,6 +1,6 @@
 # Custom keymap for NCR-80
 
-![](https://res.cloudinary.com/j4ckofalltrades/image/upload/c_limit,w_830/v1645196848/keebs/ncr80/ncr-80_vnf9hq.jpg)
+![NCR-80 keyboard](https://res.cloudinary.com/j4ckofalltrades/image/upload/c_limit,w_830/v1645196848/keebs/ncr80/ncr-80_vnf9hq.jpg)
 
 Modified version of default Via-compatible keymap plus some Vim-inspired features
 e.g. soft escape (Esc when held, Ctrl when tapped), and home row modifiers
