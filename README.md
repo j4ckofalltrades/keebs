@@ -1,6 +1,4 @@
-# keebs :keyboard:
-
-Collection of QMK and VIA compatible custom mechanical keyboard firmware.
+![keebs](https://res.cloudinary.com/j4ckofalltrades/image/upload/v1697278938/foss/gh-social-icons/keebs_prorq8.png)
 
 - [AnnePro 2](anne-pro-2)
 - [ID80](id80)
